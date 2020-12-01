@@ -1,0 +1,5 @@
+# This section configures the connection between the Datalogger tools and the Redmine instance which implements the requirements database
+rm_server_url = 'http://yourdomain.example:port'	# The Redmine URL
+rm_key_txt = 'APIKEY'			# The API key of the user (or bot) in which name the actions are undertaken.
+# Project specific settings
+rm_project_id_str = 'loaddsm-tests'		# The ID of the Redmine project where the samples shall be stored
